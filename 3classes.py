@@ -10,6 +10,9 @@ class Headphones:
     def headphones_self(self):
         print('These are ' + self.brand)
 
+class Android(Phone):
+    pass 
+
 p1 = Phone()
 p1.type = 'iPhone'
 p1.model = 'iPhone 13'
@@ -23,4 +26,4 @@ h1 = Headphones()
 h1.brand = 'Beats by Dre'
 h1.model = 'Studio 3'
 
-print('I am listening to music on my ' + p1.model + 'on spotify using ' + c1.signal + 'on ' + c1.name + 'wiht my favorite headphones the ' + h1.brand + h1.model + '.')
+print('I am listening to music on my ' + p1.model + ' on spotify using ' + c1.signal + ' on ' + c1.name + ' with my favorite headphones the ' + h1.brand + ' ' + h1.model + '.')
